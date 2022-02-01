@@ -1,6 +1,7 @@
 cd kernel
 touch .scmversion
 make ARCH=arm64 nanopi3_nougat_defconfig
+
 make ARCH=arm64
 cd ..
 mv kernel/arch/arm64/boot/Image  /device/friendlyelec/nanopi3/boot
